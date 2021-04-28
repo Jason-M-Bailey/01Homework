@@ -100,6 +100,7 @@ main {
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
+
 }
 
 /* changed from 3 classes to 1 */
@@ -119,7 +120,7 @@ main {
 .business-units {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -203,4 +204,23 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+
+@media screen and (max-width:900px) {
+    main {
+        width: 90%;
+        float: left;
+        margin: 0% 5%;
+    }
+
+    .benefits {
+        width: 90%;
+        float: left;
+        margin: 0% 5%;
+    }
+
+    .benefit p {
+        text-align: center;
+    }
 }
