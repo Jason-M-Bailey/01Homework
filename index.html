@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!-- changed website to Horiseon Social Solutions Services -->
+    <title>Horiseon Social Solutions Services</title>
+    <!-- lets add a favicon -->
 </head>
 
 <body>
@@ -15,7 +17,7 @@
         <nav>
             <ul>
                 <li>
-                    <!-- this a tag is not working, why? -->
+                    <!-- this a tag is not working, why? the section did not have an id -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -37,8 +39,9 @@
     <!-- changed div to main | lets look at css to understand what the content class is doing-->
     <main class="content">
         <!-- changed div to section -->
-            <!-- WHY IS THIS NAV LINK NOT WORKING?-->
-        <section class="search-engine-optimization">
+            <!-- WHY IS THIS NAV LINK NOT WORKING? tag was not working because the section did not have an id -->
+            <!-- the 3 sections in content all have unique class designations, can we redefine that? -->
+        <section id="search-engine-optimization" class="search-engine-optimization">
             <!-- added alt tag -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization Desk with Notebook, laptop, pens and coffee"/>
             <h2>Search Engine Optimization</h2>
@@ -74,8 +77,8 @@
 
     <!-- changed div to aside -->
     <aside class="benefits">
-        <!-- DO WE NEED THE NEXT 3 DIVS TO ALL HAVE THEIR OWN CLASS? -->
-        <div class="benefit-lead">
+        <!-- changed from 3 benefit-etc classes to single benefit class -->
+        <div class="benefit">
             <h3>Lead Generation</h3>
             <!-- added alt to image -->
             <img src="./assets/images/lead-generation.png" alt="Lead generation icon with gear leading into funnel turning into money"/>
@@ -84,7 +87,7 @@
             </p>
         </div>
 
-        <div class="benefit-brand">
+        <div class="benefit">
             <h3>Brand Awareness</h3>
             <!-- added alt to image -->
             <img src="./assets/images/brand-awareness.png" alt="Person with a lightbulb for head"/>
@@ -93,7 +96,7 @@
             </p>
         </div>
 
-        <div class="benefit-cost">
+        <div class="benefit">
             <h3>Cost Management</h3>
             <!-- added alt to image -->
             <img src="./assets/images/cost-management.png" alt="Gear with 3 coins"/>
