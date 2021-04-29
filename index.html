@@ -18,7 +18,7 @@
         <nav>
             <ul>
                 <li>
-                    <!-- this a tag is not working, why? the section did not have an id -->
+                    <!-- added id below to link href -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -28,38 +28,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        <!-- changed div to nav | that breaks the css design | fixed -->
+        <!-- changed div to nav -->
         </nav>
-    <!-- changed div to header | that breaks the css design | fixed -->
+    <!-- changed div to header fixed -->
     </header>
+    <div class="hero"></div>
 
-    <!-- attempting to display the nav buttons under the header bar based on screen size -->
-    <!--
-    <nav class="nav2">
-        <ul>
-            <li>
-                <a href="#search-engine-optimization">Search Engine Optimization</a>
-            </li>
-            <li>
-                <a href="#online-reputation-management">Online Reputation Management</a>
-            </li>
-            <li>
-                <a href="#social-media-marketing">Social Media Marketing</a>
-            </li>
-        </ul>
-    </nav>
--->
-
-    <div class="hero">
-        <!-- the image is in css page, thats new to me -->
-    </div>
-
-    <!-- changed div to main | lets look at css to understand what the content class is doing? content can be changed to main on css and removed as a class -->
+    <!-- changed div to main, removed class="content" -->
     <main>
-        <!-- changed div to section -->
-            <!-- WHY IS THIS NAV LINK NOT WORKING? tag was not working because the section did not have an id -->
-            <!-- the 3 sections in content all have unique class designations, can we redefine that? -->
-            <!-- updated class to business-units -->
+        <!-- changed div to section, added id for nav link, changed 3 different classes into business-unitss -->
         <section id="search-engine-optimization" class="business-units">
             <!-- added alt tag -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization Desk with notebook, laptop, pens and coffee"/>
