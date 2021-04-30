@@ -9,6 +9,7 @@ body {
 }
 
 /* updated name from .header to header */
+/* added display:flex; to contain text in business-units and benefits */
 header {
     display: flex;    
     justify-content:space-between;
@@ -17,8 +18,6 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    position: sticky;
-    top: 0;
 }
 
 /* updated name from .header to header */
@@ -51,24 +50,6 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*
-.nav2 {
-    font-size: 1.5vw;
-    color: white;
-    background: #2a607c;
-    position: sticky;
-    top: 96px;
-}
-
-.nav2 ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav2 ul li {
-    display: inline-flex;
-}
-*/
 
 a {
     color: #ffffff;
@@ -105,38 +86,6 @@ main {
     margin-left: 20px;
 }
 
-/* the text and images remain inside box when resizing the window, but it remains vertical, can we flex this into a horizonal wrap? */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* changed from 3 classes to 1 */
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-
-}
-
-/* changed from 3 classes to 1 */
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* changed from 3 classes to 1 */
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* 3 classes with the same properties */
 .business-units {
     margin-bottom: 20px;
@@ -156,6 +105,37 @@ main {
 .business-units h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* the text and images remain inside box when resizing the window, but it remains vertical, can we flex this into a horizonal wrap? */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* changed from 3 classes to 1 */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* changed from 3 classes to 1 */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* changed from 3 classes to 1 */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 footer {
