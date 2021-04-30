@@ -1,4 +1,6 @@
 # 01Homework
 01 Homework Refactor Assignement
 
-https://github.com/Jason-M-Bailey/01Homework
+Github repo: https://github.com/Jason-M-Bailey/01Homework
+Live page: https://jason-m-bailey.github.io/01Homework/
+
