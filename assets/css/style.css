@@ -4,14 +4,16 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
-/* updated name from .header to header */
-/* added display:flex; to contain text in business-units and benefits */
 header {
-    display: flex;    
+    display: flex; 
     justify-content:space-between;
     align-items: center;
     padding: 1%;
@@ -20,18 +22,15 @@ header {
     color: #ffffff;
 }
 
-/* updated name from .header to header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* updated name from .header to header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* updated name from div to nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,12 +39,10 @@ header nav {
     font-size: 20px;
 }
 
-/* updated name from div to nav */
 header nav ul {
     list-style-type: none;
 }
 
-/* updated name from div to nav */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -79,14 +76,12 @@ p {
     margin-left: 25px;
 }
 
-/* text escapes the content boxes when resizing window, lets see if we can fix that - consider using flex */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* 3 classes with the same properties */
 .business-units {
     margin-bottom: 20px;
     padding: 50px;
@@ -96,18 +91,15 @@ main {
     color: #ffffff;
 }
 
-/* 3 classes with the same properties */
 .business-units img {
     max-height: 200px;
 }
 
-/* 3 classes with the same properties */
 .business-units h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* the text and images remain inside box when resizing the window, but it remains vertical, can we flex this into a horizonal wrap? */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,19 +111,16 @@ main {
     background-color: #2589bd;
 }
 
-/* changed from 3 classes to 1 */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* changed from 3 classes to 1 */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* changed from 3 classes to 1 */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -145,10 +134,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
-}
-
+/* added multiple breakpoints to deal with nav, main and aside formatting */
 @media screen and (max-width:1050px) {
     header nav {
         font-size: 16px;
