@@ -1,16 +1,12 @@
-mybutton = document.getElementById("myBtn");
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
   } else {
-    mybutton.style.display = "none";
+    document.getElementById("header").style.top = "-70px";
   }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  prevScrollpos = currentScrollPos;
 }
