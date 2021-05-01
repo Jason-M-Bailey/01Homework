@@ -1,3 +1,10 @@
+![01 Homework 01](https://user-images.githubusercontent.com/23285473/116762445-78418a00-a9e8-11eb-9fe4-f3292879bba3.jpg)
+![01 Homework 02](https://user-images.githubusercontent.com/23285473/116762462-81325b80-a9e8-11eb-866b-d0d7be8bbf79.jpg)
+![01 Homework 03](https://user-images.githubusercontent.com/23285473/116762466-8394b580-a9e8-11eb-842a-6d9acb34c802.jpg)
+![01 Homework 04](https://user-images.githubusercontent.com/23285473/116762470-855e7900-a9e8-11eb-91a9-3f11a6861f38.jpg)
+
+
+
 # 01Homework
 01 Homework Refactor Assignement
 
